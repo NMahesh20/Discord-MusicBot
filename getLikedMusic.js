@@ -20,7 +20,7 @@ request({url:playlists_url, headers:{"Authorization":"Bearer "+token}}, function
         else{
             for(i in playlists.items){
                 console.log(playlists.items[i].track.name)
-                yts( playlists.items[i].track.name+" song", function ( err, r ) {
+                yts( playlists.items[i].track.name, function ( err, r ) {
                     if(err) return console.error(err);
                     const videos = r.videos;
                     writeStream.write("!play " +videos[0].url+"\r\n")
