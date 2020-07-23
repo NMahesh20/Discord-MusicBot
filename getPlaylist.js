@@ -2,10 +2,10 @@ var request = require("request");
 var fs=require("fs");
 //First login into spotify and create Developer account
 //Get user id from "https://www.spotify.com/in/account/overview/"
-var user_id = "slyxn5y9wp8rop2wod5bjekhb";
+var user_id = "<Your Spotify UserID>";
 
 //Get OAuth token form "https://developer.spotify.com/console/get-current-user-playlists/" and press get Token select playlist-read-private
-var token = "BQAhCfq-196p2bkPOYfsMn27hGsF4l3a0hNitEm442Em3K9zEBFySUQaRfsTwrJRV2BoYZU0mntxbVIX-kONGScCVBk8mJTgV0Qoqo0U66zTgmI0yR0FRk08GZqRrpJnJK-06cfz5TCbWSp-lKmnfVJLDUNbgYqZpQ_g7OBl2RV2"
+var token = "<Your Spotify OAuth token"
 
 var writeStream = fs.createWriteStream("./YoutubeLinks.txt",{flags:"a"});
 
