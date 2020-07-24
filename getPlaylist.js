@@ -1,8 +1,6 @@
 var request = require("request");
 var fs=require("fs");
 //First login into spotify and create Developer account
-//Get user id from "https://www.spotify.com/in/account/overview/"
-var user_id = "<your user_id>";
 
 //Get OAuth token form "https://developer.spotify.com/console/get-current-user-playlists/" and press get Token select playlist-read-private
 var token = "<your token>"
@@ -13,7 +11,7 @@ var writeStream = fs.createWriteStream("./YoutubeLinks.txt",{flags:"a"});
 const yts = require( 'yt-search' )
 
   
-var playlists_url="https://api.spotify.com/v1/users/"+user_id+"/playlists?limit=50";
+var playlists_url="https://api.spotify.com/v1/users/me/playlists?limit=50";
 
 request({url:playlists_url, headers:{"Authorization":"Bearer "+token}}, function(err, res){
 	if (res){
