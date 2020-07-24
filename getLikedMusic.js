@@ -2,13 +2,11 @@ var request = require("request");
 var fs=require("fs");
 
 //First login into spotify and create Developer account
-//Get user id from "https://www.spotify.com/in/account/overview/"
-var user_id="<your user_id>";
 
 //Get it From https://developer.spotify.com/console/get-current-user-saved-tracks/ click get OAuth token and select user-library-read
 var token="<Your token>"
 
-var playlists_url="https://api.spotify.com/v1/users/"+user_id+"/tracks?limit=50";
+var playlists_url="https://api.spotify.com/v1/users/me/tracks?limit=50";
 var writeStream = fs.createWriteStream("./YoutubeLinks.txt",{flags:"a"});
 
 const yts = require( 'yt-search' )
