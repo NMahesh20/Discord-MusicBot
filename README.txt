@@ -17,7 +17,7 @@ config.json
 Configuration for bot. 
 Prefix: It is for the bot to understand that it's his commands
 Token: You need to create the bot then copy it's token. 
-Need help in creating bot. Check this link https://gabrieltanner.org/blog/dicord-music-bot
+Need help in creating bot, Check this link https://gabrieltanner.org/blog/dicord-music-bot
 
 
 bot.js
