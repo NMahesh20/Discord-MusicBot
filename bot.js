@@ -57,7 +57,7 @@ client.on("message", async message => {
   } else if(message.content.startsWith(`${prefix}help`)){
       message.channel.send(`Commands defined:\n${prefix}play <YouTube Link> -> To Play the music\n${prefix}skip -> To skip the currently playing song\n${prefix}stop -> To stop the bot.\n${prefix}readLinks -> For reading File which contain ${prefix} <YouTube links>.\n${prefix}enterVoiceChannel -> To join the Voice Channel`)
   }else if(message.content.startsWith(`${prefix}readLinks`)){
-    message.channel.send("Wait till All the Links are added.⏳\nYour Patience will be as worth as your Playlist.")
+    message.channel.send("It's advice to mute the notification!!!.\nWait till All the Links are added.⏳\nYour Patience will be as worth as your Playlist.")
 
       readLinks(message,serverQueue);
   }else if(message.content.startsWith(`${prefix}enterVoiceChannel`)){
