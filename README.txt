@@ -25,12 +25,10 @@ It's the bot script. No changes are required.
 
 getLikedMusic.js
 It's the script to get the user's liked musics.
-user_id: your spotify account userID.
 token: Spotify OAuth token.
 
 getPlaylist.js
 It's the script to get the spotify playlist and will run the google search to get the youtube links and then store it.
-user_id: your spotify account userID.
 token: Spotify OAuth token.
 Reference for the code: API University
 
