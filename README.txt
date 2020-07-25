@@ -15,9 +15,10 @@ First Run getPlaylist.js or getLikedMusic.js. For getting YouTube Links from the
 
 config.json
 Configuration for bot. 
+First create a bot in Discord. Need help in creating bot, Check this link https://gabrieltanner.org/blog/dicord-music-bot
+""Parameters""
 Prefix: It is for the bot to understand that it's his commands
 Token: You need to create the bot then copy it's token. 
-Need help in creating bot, Check this link https://gabrieltanner.org/blog/dicord-music-bot
 
 
 bot.js
@@ -25,12 +26,14 @@ It's the bot script. No changes are required.
 
 getLikedMusic.js
 It's the script to get the user's liked musics.
+""Parameters""
 user_id: Spotify User ID.
 token: Spotify OAuth token.
 
 getPlaylist.js
 It's the script to get the spotify playlist and will run the google search to get the youtube links and then store it.
+""Parameters""
 user_id: Spotify User ID.
 token: Spotify OAuth token.
-Reference for the code: API University
+Reference for this code: API University
 
