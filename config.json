@@ -1,4 +1,5 @@
 {
     "prefix":"!",
-    "token":"<Your Bot's Secret Key or Token>"
+    "token":"<Your Bot's Secret Key or Token>",
+    "botName":"XLR8"
 }
