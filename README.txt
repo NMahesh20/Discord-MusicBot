@@ -9,8 +9,8 @@ https://www.wikihow.com/Install-FFmpeg-on-Windows
 Or 
 npm install ffmpeg-static
 
-<Bot may Sometimes crash. The possibility is low. But it may...>
-First Run getPlaylist.js, then bot.js. For awailing all functionality.
+<Bot works perfectly. The possibility of crashing is low. But it may...>
+First Run getPlaylist.js or getLikedMusic.js. For getting YouTube Links from the user's Spotify Account.
 ----------------------------
 
 config.json
