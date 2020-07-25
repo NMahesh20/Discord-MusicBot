@@ -23,18 +23,22 @@ BotName: The name that you have gave to your bot.
 
 
 bot.js
-It's the bot script. No changes are required.
+It's the bot script. The error will be logged.
+""Parameters""
+file: Location of the file that contains all the YouTube links. (Required for the readLinks feature of the bot)
 
 getLikedMusic.js
 It's the script to get the user's liked musics.
 ""Parameters""
 user_id: Spotify User ID.
 token: Spotify OAuth token.
+fileLoc: The location and file name where you want to save the links.
 
 getPlaylist.js
 It's the script to get the spotify playlist and will run the google search to get the youtube links and then store it.
 ""Parameters""
 user_id: Spotify User ID.
 token: Spotify OAuth token.
+fileLoc: The location and file name where you want to save the links.
 Reference for this code: API University
 
