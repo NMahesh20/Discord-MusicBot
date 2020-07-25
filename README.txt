@@ -9,7 +9,7 @@ https://www.wikihow.com/Install-FFmpeg-on-Windows
 Or 
 npm install ffmpeg-static
 
-<Bot may Sometimes crash. The possibility is low. But it may... And bot definately crashes when you entered wrong url>
+<Bot may Sometimes crash. The possibility is low. But it may...>
 First Run getPlaylist.js, then bot.js. For awailing all functionality.
 ----------------------------
 
