@@ -4,10 +4,10 @@ var readline=require('readline');
 //First login into spotify
 
 //Get your user id from https://www.spotify.com/in/account/overview/
-var user_id="slyxn5y9wp8rop2wod5bjekhb";
+var user_id="<Your user ID>";
 
 //Get OAuth token form "https://developer.spotify.com/console/get-current-user-playlists/" and press get Token select playlist-read-private
-var token = "BQC2GedFP_zwuClRwOLl-ZQ-kEtY-GGnp91Y-64dsIlOjzJ5ZvlnDfzFOx6us0jDdPWuYE29_Z6elXT34d5CZxcm22jNhrI3VvmtFZyHZNmCKx0f2T4on1bmItvFYIdZaQSNaBC9vSIipE6j011jNZ9LRT5SZ66IZCXPG_y-F8UWSauY-pkh8etH3A"
+var token = "<Your token>"
 
 //Location of the file
 const fileLoc="./YoutubeLinks.txt"
