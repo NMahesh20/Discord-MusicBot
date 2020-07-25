@@ -19,6 +19,7 @@ First create a bot in Discord. Need help in creating bot, Check this link https:
 ""Parameters""
 Prefix: It is for the bot to understand that it's his commands
 Token: You need to create the bot then copy it's token. 
+BotName: The name that you have gave to your bot.
 
 
 bot.js
