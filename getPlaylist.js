@@ -35,9 +35,8 @@ request({url:playlists_url, headers:{"Authorization":"Bearer "+token}}, function
               var playlist_url = playlists.items[no].href;
               search(playlist_url,ans);
             }
-          }             
-      }runLoop();
-}}
+          };runLoop();             
+      }
 )
 
 async function search(playlist_url,ans){
