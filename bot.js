@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const { prefix, token } = require("./config.json");
+const { prefix, token, botName } = require("./config.json");
 const ytdl = require("ytdl-core");
 var fs = require('fs');
 var readline = require('readline');
@@ -24,7 +24,7 @@ for (let c of allChannels) {
     if (channelType === "text") {
         channelID = c[0];
         console.log("Channel id:"+channelID);
-        client.channels.cache.get(channelID).send(`XLR8 Here, Ready for Execution.\nLet's Rock and Roll.🤘\nType '${prefix}help' to know commands.\nJoin The voice channel, if not done.`)
+        client.channels.cache.get(channelID).send(`${botName} Here, Ready for Execution.\nLet's Rock and Roll.🤘\nType '${prefix}help' to know commands.\nJoin The voice channel, if not done.`)
     }
     if(channelType=="voice"){
       voiceChannelID=c[0];
@@ -172,7 +172,7 @@ function stop(message, serverQueue) {
     return message.channel.send("You have to be in a voice channel to stop the music!" );
   serverQueue.songs = [];
   serverQueue.connection.dispatcher.end();
-  return message.channel.send("Time to Say GoodBye.\nXLR8 signing out.\nX﹏X");
+  return message.channel.send(`Time to Say GoodBye.\n${botName} signing out.\nX﹏X`);
 }
 }
 
