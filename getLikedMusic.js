@@ -1,7 +1,8 @@
 var request = require("request");
 var fs=require("fs");
 
-//First login into spotify and create Developer account
+//First login into spotify
+//Get your user id from https://www.spotify.com/in/account/overview/
 var user_id="<Enter you user id>"
 
 //Get it From https://developer.spotify.com/console/get-current-user-saved-tracks/ click get OAuth token and select user-library-read
